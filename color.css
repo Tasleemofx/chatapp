@@ -264,12 +264,12 @@ input{
 
 
     /*for screens below 1000px*/
-  @media screen and (max-width: 1100px) {
+  @media screen and (max-width: 1000px) {
 
 
     #sidepane{
     background-color: var(--moderateViolet);
-    width: 60%;
+    width: 55%;
     border-radius: 0 0 50% 50%;
     height: 400px;
     position: relative;
@@ -465,7 +465,7 @@ input{
     }
 
     /* media query for screens less than 400px*/
-      @media only screen and (max-width: 500px) {
+      @media only screen and (max-width: 400px) {
 
     #sidepane{
     background-color: var(--moderateViolet);
